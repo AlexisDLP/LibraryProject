@@ -1,0 +1,112 @@
+#wrapper
+{
+    
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+header
+{
+    background-color: lightgray;
+}
+
+.picture
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:20px;
+}
+
+#menu
+{
+    background-color: black;
+    height: 50px;
+    padding: 4px;
+}
+
+#nav ul
+{
+    display: none;    
+}
+
+#nav li
+{
+    color: white;
+    list-style: none;
+    float: left;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+#nav li a:link, li a:visited
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#nav li a:hover
+{
+    color: lightblue;
+}
+
+#nav li a:active
+{
+    color: red;
+}
+
+#article
+{
+    float: left;
+    width: 750px;
+    margin: 20px 0 20px 0;
+    padding: 10px;
+}
+
+footer
+{
+    clear: both;
+    height: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    float:bottom;
+}
+
+.Liste img
+{
+    
+    height: 150px;
+    width: 150px;
+}
+
+.Liste tr th, .Liste tr td
+{
+    text-align: left;
+    padding-left: 6px;
+}
+
+
+.Liste
+{
+    width: 750px;
+    height: 250px;
+    margin-top: 10px;
+    border: 3px solid lightgray;
+}
+.gestionTable td, .gestionTable th
+{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+label
+{
+    float: left;
+    width: 100px;
+}
+
