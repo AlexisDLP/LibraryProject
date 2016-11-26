@@ -7,7 +7,7 @@ class BookModel {
         
          try
         {
-            $bdd = new PDO('mysql:host=localhost;dbname=library;charset=utf8','root','Alexis3721',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+            $bdd = new PDO('mysql:host=localhost;dbname=library;charset=utf8','root','root',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
         }
         catch(Exception $e)
         {
@@ -28,7 +28,7 @@ class BookModel {
       
         try
         {
-            $bdd = new PDO('mysql:host=localhost;dbname=library;charset=utf8','root','Alexis3721',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+            $bdd = new PDO('mysql:host=localhost;dbname=library;charset=utf8','root','root',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
         }
         catch(Exception $e)
         {
@@ -60,7 +60,7 @@ class BookModel {
    
           try
         {
-            $bdd = new PDO('mysql:host=localhost;dbname=library;charset=utf8','root','Alexis3721',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+            $bdd = new PDO('mysql:host=localhost;dbname=library;charset=utf8','root','root',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
         }
         catch(Exception $e)
         {
@@ -90,7 +90,7 @@ class BookModel {
     function InsererBook(BookEntity $book) {
           try
         {
-            $bdd = new PDO('mysql:host=localhost;dbname=library;charset=utf8','root','Alexis3721',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+            $bdd = new PDO('mysql:host=localhost;dbname=library;charset=utf8','root','root',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
         }
         catch(Exception $e)
         {
@@ -114,7 +114,7 @@ class BookModel {
     function ModifierBook($id, BookEntity $book) {
           try
         {
-            $bdd = new PDO('mysql:host=localhost;dbname=library;charset=utf8','root','Alexis3721',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+            $bdd = new PDO('mysql:host=localhost;dbname=library;charset=utf8','root','root',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
         }
         catch(Exception $e)
         {
@@ -136,7 +136,7 @@ class BookModel {
     function SupprimerBook($id) {
           try
         {
-            $bdd = new PDO('mysql:host=localhost;dbname=library;charset=utf8','root','Alexis3721',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+            $bdd = new PDO('mysql:host=localhost;dbname=library;charset=utf8','root','root',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
         }
         catch(Exception $e)
         {
